@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox Basics</title>
+    <style>
+        .container {
+            border: 2px solid brown;
+            background-color: antiquewhite;
+            height: 300px;
+            padding: 20px;
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: center;
+            gap:20px;
+        }
+        .item {
+            background-color: rgb(174, 247, 223);
+            border: 1px solid gray;
+            height: 50px;
+            font-weight: bold;
+            color:white;
+            text-align: center;
+            padding-top:15px;
+        }
+        .item1 {
+            flex: 3 1 200px;
+            background-color: red;
+        }
+        .item2 {
+            flex: 1 1 200px;
+            background-color: green;         
+        }
+        .item3 {
+            flex: 1 1 200px;
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1">Item 1</div>
+        <div class="item item2">Item 2</div>
+        <div class="item item3">Item 3</div>
+        <div class="item item1">Item 1</div>
+        <div class="item item2">Item 2</div>
+        <div class="item item3">Item 3</div>
+        <div class="item item1">Item 1</div>
+        <div class="item item2">Item 2</div>
+        <div class="item item3">Item 3</div>
+        <div class="item item1">Item 1</div>
+        <div class="item item2">Item 2</div>
+        <div class="item item3">Item 3</div>
+    </div>
+</body>
+</html>

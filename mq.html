@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Mediq Query Demo</title>
+  <style>
+    /* Base styles for larger screens */
+    /* From 992px to any pixel greater than that */
+    body {
+      background-color: rgb(151, 84, 84);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    h1 {
+      font-size: 50px;
+    }
+    /* From 769px to 992px */
+    @media (max-width: 992px) {
+        body {
+            background-color: yellow;
+        }
+        h1 {
+            font-size: 36px;
+        }
+    }
+    /* From 481px to 768px */
+    @media (max-width: 768px) {
+      /* Styles for devices with screen width between 481 to 768px px */
+      body {
+        background-color: blue;
+      }
+      h1 {
+        font-size: 24px;
+      }
+    }
+
+
+    /* from 0px to 576px */
+    @media (max-width: 576px) {
+
+      /* Styles for devices with a screen width of 480px or less */
+      body {
+        background-color: green;
+      }
+
+      h1 {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Media Query Demo</h1>
+</body>
+
+</html>

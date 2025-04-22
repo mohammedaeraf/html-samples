@@ -1,0 +1,13 @@
+:root {
+    --brand-color-1:rgb(111, 82, 14);
+    --brand-text-color-1: rgb(246, 234, 234);
+
+}
+
+.brandBg {
+    background-color: var(--brand-color-1);
+}
+
+.brandText {
+    color:var(--brand-text-color-1);
+}
