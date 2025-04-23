@@ -3,3 +3,22 @@ h1 {
     font-style: italic;
     font-variant: small-caps;
 }
+.img1 {
+    border: 2px solid yellow;
+}
+.img2 {
+    border: 2px solid red;
+
+}
+
+.big {
+    font-size: 32px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.blueText {
+    color: blue;
+}
