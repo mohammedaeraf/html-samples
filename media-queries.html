@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Media Query Demo</title>
+  <style>
+    /* Base styles for larger screens */
+    /* From 992px to any pixel greater than that */
+    body {
+      background-color: orange;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1 {
+      font-size: 30px;
+    }
+
+    /* from 768px to 992px */
+    @media (max-width: 992px) {
+
+      /* Styles for devices with screen width between 768px to 992px  */
+      body {
+        background-color: blue;
+      }
+
+      h1 {
+        font-size: 24px;
+        color: white;
+      }
+    }
+
+
+    /* from 0px to 768px */
+    @media (max-width: 768px) {
+
+      /* Styles for devices with a screen width of 768px or less */
+      body {
+        background-color: green;
+      }
+
+      h1 {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Media Query Demo</h1>
+</body>
+
+</html>
