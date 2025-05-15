@@ -1,0 +1,47 @@
+/* Defining CSS Variables */
+:root {
+  --primary-color: #4eaf08;
+  --secondary-color: #cdbdbd;
+  --text-color: #221f1f;
+  --padding: 20px;
+  --border-radius: 14px;
+}
+
+/* Applying Variables */
+body {
+  font-family: Arial, sans-serif;
+  color: var(--text-color);
+  margin: 0;
+  text-align: center;
+}
+
+/* Using --primary-color in multiple places */
+header,
+footer {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: var(--padding);
+}
+
+section {
+  min-height: 70vh;
+}
+
+/* Using --padding and --border-radius in multiple places */
+.content {
+  padding: var(--padding);
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: var(--border-radius);
+}
+
+button:hover {
+  background-color: darkblue;
+}
